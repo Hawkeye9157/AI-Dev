@@ -1,14 +1,17 @@
 #include "ExampleScene.h"
+#include "CAScene.h"
+#include "GLLScene.h"
 #include <memory>
 #include <SDL.h>
 
 int main(int, char**)
 {
-	std::unique_ptr<ExampleScene> scene = std::make_unique<ExampleScene>();
+	std::unique_ptr<GLLScene> scene = std::make_unique<GLLScene>();
 
 	scene->Initialize();
 	while (!scene->IsQuit())
 	{
+
 		scene->Update();
 		scene->Draw();
 	}

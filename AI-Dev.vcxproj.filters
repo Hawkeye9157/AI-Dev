@@ -40,6 +40,15 @@
     <ClInclude Include="Source\Scene.h">
       <Filter>Source\Header</Filter>
     </ClInclude>
+    <ClInclude Include="Source\CAScene.h">
+      <Filter>Source\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cells.h">
+      <Filter>Source\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLLScene.h">
+      <Filter>Source\AI</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Input.cpp">
@@ -59,6 +68,15 @@
     </ClCompile>
     <ClCompile Include="Source\ExampleScene.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAScene.cpp">
+      <Filter>Source\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLLScene.cpp">
+      <Filter>Source\AI</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
